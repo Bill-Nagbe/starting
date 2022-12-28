@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(34, 69, 99, 0.125);
+}
+
+body {
+    line-height: 1.4rem;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+/** header **/
+
+header {
+    width: 100%;
+    height: 20%;
+}
+
+.nav {
+    position: relative;
+    width: 50%;
+    float: right;
+    clear: both;
+    top: 2%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.navbar li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+.title {
+    position: relative;
+    top: 75px;
+    left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1rem;
+}
+
+/** main section **/
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.colors h4 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-right: 150px;
+    margin-bottom: 5px;
+}
+
+.colors {
+    width: 50%;
+}
+
+.fonts {
+    width: 50%;
+}
+
+.parts {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.styles {
+    width: 50%;
+    margin-top: 50px;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    font-family: 'Chivo Mono', monospace;
+    font-style: italic;
+    margin-left: 40px;
+}
+
+.box {
+    margin: 50px;
+    height: 100px;
+}
+
+/** colors fill **/
+.color {
+    height: 35px;
+    width: 70%;
+    margin: 2px;
+    border-radius: 2px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.blc {
+    background-color: #000000;
+    color: rgba(245, 245, 245, 0.659);
+}
+
+
+.char {
+    background-color: #5C5C5C;
+    color: rgba(245, 245, 245, 0.72);
+}
+
+
+.blk-gry {
+    background-color: #454545;
+    color: rgba(255, 255, 255, 0.528);
+}
+
+.red {
+    background-color: #d10000;
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.firebrick {
+    background-color: #FF0000;
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.red-rose {
+    background-color: #FF2E2E;
+    color: rgba(255, 255, 255, 0.752);
+}
+
+
+.deep {
+    background-color: #024376;
+}
+
+.blus {
+    background-color: #035CA3;
+}
+
+.skyblue {
+    background-color: #0476D0;
+}
